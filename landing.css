@@ -1,0 +1,39 @@
+.navbar
+{
+  background-color: rgb(128, 194, 255);
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  padding: 15px; 
+}
+.main_body
+{
+    display: flex;
+    justify-content: space-around;
+}
+.main_body2
+{
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+.footer{
+   color: rgb(79, 131, 118); 
+   text-align: right;
+   padding: 20px;
+}
